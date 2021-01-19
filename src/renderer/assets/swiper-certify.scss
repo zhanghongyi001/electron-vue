@@ -1,0 +1,104 @@
+.swiper-certify{
+        /*上下左右居中*/
+    height: 100%;
+    width: 100%;
+    .centerPosition {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+    }
+ 
+    /*上下居中*/
+    .YcenterPosition {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+    }
+ 
+    /*左右居中*/
+    .XcenterPosition {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+    }
+ 
+    ul.swiper-certif-list {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        position: relative;
+        li {
+            width: 50%;
+            position: absolute;
+            transition: all 0.5s ease-out;
+            border-radius: 5px;
+            box-shadow: 0 10px 20px -10px #333;
+            cursor: pointer;
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+ 
+    }
+    .p0, .p1 {
+        opacity: 0;
+        transform: translate3d(0, -50%, 0) scale(0.7);
+        transform-origin: 0 50%;
+        z-index: 0;
+    }
+ 
+    .p2 {
+        opacity: 0.3;
+        transform: translate3d(0, -50%, 0) scale(0.7);
+        transform-origin: 0 50%;
+        z-index: 1;
+    }
+ 
+    .p3 {
+        transform: translate3d(15%, -50%, 0) scale(0.8);
+        transform-origin: 0 50%;
+        opacity: 0.6;
+        z-index: 2;
+    }
+ 
+    .p4 {
+        transform: translate3d(50%, -50%, 0) scale(1);
+        transform-origin: 0 50%;
+        z-index: 3;
+        opacity: 1;
+    }
+ 
+    .p5 {
+        transform: translate3d(85%, -50%, 0) scale(0.8);
+        transform-origin: 100% 50%;
+        opacity: 0.7;
+        z-index: 2;
+    }
+ 
+    .p6 {
+        opacity: 0.3;
+        transform: translate3d(100%, -50%, 0) scale(0.7);
+        transform-origin: 100% 50%;
+        z-index: 1;
+    }
+    .p7, .p8, .p9 {
+        opacity: 0;
+        transform: translate3d(100%, -50%, 0) scale(0.7);
+        transform-origin: 100% 50%;
+        z-index: 0;
+    }
+}
