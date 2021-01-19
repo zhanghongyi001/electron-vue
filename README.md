@@ -24,7 +24,7 @@ npm run lint
 ```
 # 已经实现功能包括：
 ## 1.企业常见的小窗登录
-    ![Image text](https://enncdn.fanneng.com/login.png)
+    ![登录模块](https://enncdn.fanneng.com/login.png)
 ## 2.打开不包含默认头的窗口
 ## 3.多窗口服务
 ## 4.基于vue可以快速上手，不需要再去纠结基本功能实现
