@@ -24,7 +24,7 @@ npm run lint
 ```
 已经实现功能包括：
     1.企业常见的小窗登录
-    ![Image text](https://github.com/zhanghongyi001/electron-vue/tree/main/static/login.png)
+    ![Image text](https://enncdn.fanneng.com/login.png)
     2.
 ---
 
