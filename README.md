@@ -20,7 +20,11 @@ npm test
 
 # lint all JS/Vue component files in `src/`
 npm run lint
+# 打包成window
+yarn build:win
 
+# 打包成mac
+yarn build
 ```
 # 已经实现功能包括：
 ## 1.企业常见的小窗登录
